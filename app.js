@@ -15,16 +15,16 @@ const {
 } = require("./middlewares/authentication");
 
 const app = express();
-// const PORT = process.env.PORT || 8000;
-const PORT=8000;
+const PORT = process.env.PORT || 8000;
+// const PORT=8000;
 
-// mongoose
-//   .connect(process.env.MONGO_URL)
-//   .then((e) => console.log("MongoDB Connected"));
+mongoose
+  .connect(process.env.MONGO_URL)
+  .then((e) => console.log("MongoDB Connected"));
 
-mongoose.connect("mongodb://127.0.0.1:27017/blogify")
-.then(()=>console.log("connected"))
-.catch((e)=>console.log("error",e))
+// mongoose.connect("mongodb://127.0.0.1:27017/blogify")
+// .then(()=>console.log("connected"))
+// .catch((e)=>console.log("error",e))
 
 mongoose.set('strictQuery', true);
 
