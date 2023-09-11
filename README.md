@@ -10,5 +10,8 @@
 ### Sign up and Sign in page
 <img width="960" alt="Screenshot 2023-09-11 124154" src="https://github.com/20481A1219/Blogging-Website/assets/81548274/79b2d1ac-9b63-4b3e-9d55-20cdc61983f8">
 
+### Adding Blogs
+<img width="960" alt="image" src="https://github.com/20481A1219/Blogging-Website/assets/81548274/ddfaba8f-3bdf-4a8c-9275-bef3aad1f885">
+
 ### Commenting to the blogs
 <img width="902" alt="image" src="https://github.com/20481A1219/Blogging-Website/assets/81548274/2a18f778-1b67-4149-87fb-67f8aba0284f">
